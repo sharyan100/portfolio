@@ -1,0 +1,92 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* About Me Section Styles */
+#about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Projects Section Styles */
+#projects .project {
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+    background-color: #f8f9fa;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: #e9ecef;
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Contact Section Styles */
+#contact {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#contact p:last-child {
+    margin-bottom: 0;
+}

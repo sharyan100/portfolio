@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Aryan Shah - Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Aryan Shah</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <img src="images/profile.png" alt="Aryan Shah" class="img-fluid rounded-circle my-3" style="max-width: 200px;">
+            <p class="lead">Hello everyone. My name is Aryan Shah, and I am a rising senior at UW Seattle pursuing a double degree in Psychology and Informatics with further specialization in Human-Computer Interaction. This website is meant to showcase the projects and deliverables that I have completed throughout my undergraduate career.</p>
+        </div>
+    </section>
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="https://uw-friend-finder.web.app/">UW Friend-Finder</a></h3>
+                        <p class="card-text">Seattle, Washington<br>
+                        Client-Side Development Team Project<br>
+                        June 2023 – August 2023</p>
+                        <ul>
+                            <li>Led a team of 2 developers to create a dynamic friend-finding website using HTML, CSS, React web framework, and Firebase</li>
+                            <li>Implemented complex formatting and responsive layouts with media queries and Bootstrap CSS frameworks for optimal user experience across various devices</li>
+                            <li>Integrated AJAX to process and access external data, providing users with relevant information to facilitate friend-finding and social connections</li>
+                            <li>Utilized JavaScript functions, React properties, and state to add interactivity, increasing user engagement by 5%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="https://www.figma.com/proto/31JZZkcLEJ3nGe8NywkaVI/INFO-200-Final-Project?type=design&node-id=162-341&t=RbIzo8ua0qAKn9Bq-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=162%3A341&show-proto-sidebar=1">UW FORWARD</a></h3>
+                        <p class="card-text">Seattle, Washington<br>
+                        Intellectual Foundations Team Project<br>
+                        Jan 2021 – March 2021</p>
+                        <ul>
+                            <li>Developed a Figma prototype application that enabled UW international students to compare and contrast housing, banking, and other services available on/off campus</li>
+                            <li>Designed the user interface with various elements and accessibility features to ensure people with disabilities can navigate through assistive technologies</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="https://sharyan100.shinyapps.io/final-project-sharyan100/?_ga=2.249419662.847513772.1662885243-1018317159.1662885243">COVID-19 Data Website</a></h3>
+                        <p class="card-text">Seattle, Washington<br>
+                        Technical Foundations Team Project<br>
+                        May 2022 – August 2022</p>
+                        <ul>
+                            <li>Conducted data manipulation, analysis, and visualization on COVID-19 datasets while utilizing version control techniques</li>
+                            <li>Constructed an interactive website using RStudio and Shiny that explored COVID-19 trends across the world, thereby demonstrating the power and perils of using data to address global disparities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Get In Touch</h3>
+                    <p>If you have any questions or would like to discuss a potential project, feel free to reach out to me:</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope"></i> Email: <a href="mailto:aryan123@uw.edu">aryan123@uw.edu</a></li>
+                        <li><i class="fas fa-phone"></i> Phone: <a href="tel:2066016266">206-601-6266</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contact Form</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
